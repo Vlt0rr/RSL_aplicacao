@@ -1,1 +1,0 @@
-# RSL_aplicacao
