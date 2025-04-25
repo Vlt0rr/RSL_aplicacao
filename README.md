@@ -51,19 +51,21 @@ A autenticação é baseada em credenciais protegidas por meio do arquivo `secre
 
 
 ---
+---
 
 ## 🖊️ Analytics
 
 O projeto possui duas páginas de analytics, aonde é possível visualizar as horas trabalhadas por projeto em um período selecionado e uma análise do tempo planejado x tempo real gasto em um projeto.
 
-Análise de horas Trabalhadas:
+#### Análise de horas Trabalhadas:
 
 ![image](https://github.com/user-attachments/assets/b7ede8ea-29b0-4f6d-86fe-d0abe4a3d2e2)
 
-Grafico Planejado x Real:
+#### Grafico Planejado x Real:
 
 ![image](https://github.com/user-attachments/assets/02fc4c53-5820-4045-a518-48a5cdb88c91)
 
+---
 ---
 
 ## 📁 Estrutura do Projeto
