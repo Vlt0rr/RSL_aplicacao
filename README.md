@@ -135,7 +135,3 @@ Desenvolvido por **Vitor Alves**
 💼 https://linkedin.com/in/vit0ralves
 
 ---
-
-## ⭐ Considerações Finais
-
-Este projeto é um exemplo real de como aliar **desenvolvimento ágil, automação e visualização de dados** para resolver problemas reais em ambientes corporativos. Se você busca alguém que saiba entregar soluções funcionais, com segurança e foco no usuário — **vamos conversar!**
