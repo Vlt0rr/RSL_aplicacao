@@ -35,17 +35,34 @@ A aplicação permite que diferentes tipos de usuários (admin e normal) acessem
 - **Secrets Management** – Armazenamento seguro de credenciais de usuários
 
 ---
+## 👨‍💻 Formulario inicial
+
+Abaixo vemos a tela que os funcionários preenchem para registrar o projeto que estão trabalhando.
+
+![image](https://github.com/user-attachments/assets/25eb28ad-cbed-4b17-a7f9-6b1e1ae200cf)
+
+---
 
 ## 🔐 Segurança
 
-A autenticação é baseada em credenciais protegidas por meio do arquivo `secrets.toml`, o que garante sigilo e controle de acesso:
+A autenticação é baseada em credenciais protegidas por meio do arquivo `secrets.toml`, o que garante sigilo e controle de acesso.
 
-```toml
-# Exemplo do arquivo .streamlit/secrets.toml
-[credenciais]
-senha_ronaldo = "sua_senha_segura"
-senha_felipe = "outra_senha_segura"
-```
+![image](https://github.com/user-attachments/assets/29b8f000-07ea-44b9-a813-00307982abbe)
+
+
+---
+
+## 🖊️ Analytics
+
+O projeto possui duas páginas de analytics, aonde é possível visualizar as horas trabalhadas por projeto em um período selecionado e uma análise do tempo planejado x tempo real gasto em um projeto.
+
+Análise de horas Trabalhadas:
+
+![image](https://github.com/user-attachments/assets/b7ede8ea-29b0-4f6d-86fe-d0abe4a3d2e2)
+
+Grafico Planejado x Real:
+
+![image](https://github.com/user-attachments/assets/02fc4c53-5820-4045-a518-48a5cdb88c91)
 
 ---
 
