@@ -6,12 +6,10 @@ from streamlit_gsheets import GSheetsConnection
 
 secao_usuario = st.session_state
 
-nome_usuario = st.session_state.get("usuario", "Visitante") # se não existir, usa "Visitante"
-
 coluna_esquerda, coluna_direita = st.columns([0.5, 1])
 
 coluna_esquerda.image("imagem/logo.jpeg", width=250)
-st.markdown(f"# 🌟 Bem-vindo, {nome_usuario}.")
+st.markdown(f"# 🌟Olá, Bem-vindo.")
 st.subheader("Registro de atividades")
 
 # Estabelecendo a conexão com o Google Sheets
@@ -22,6 +20,12 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 #pegando os dados existentes da planilha/banco e transformando em um dataframe
 existing_data = conn.read(worksheet="Dados", usecols=list(range(7)), ttl=5)
 existing_data = existing_data.dropna(how="all")
+
+
+nome_usuario = st.selectbox(
+    'Nome',
+    ['', 'Ademir', 'Adriano', 'Arlunes', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Wesley']
+)
 
 lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT']
 
