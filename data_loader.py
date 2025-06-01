@@ -14,4 +14,3 @@ existing_data = existing_data.dropna(how="all")
 def carregar_dados():
     tabela = existing_data
     return tabela
-
