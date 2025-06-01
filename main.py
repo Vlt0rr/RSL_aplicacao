@@ -2,12 +2,12 @@ import streamlit as st
 
 #pegando senhas do arquivo: "secrets"
 senha_ronaldo = st.secrets["credenciais"]["senha_ronaldo"]
-senha_felipe = st.secrets["credenciais"]["senha_felipe"]
+senha_geral = st.secrets["credenciais"]["senha_geral"]
 
 # Dicionário com usuários, senhas e tipo
 usuarios = {
     "Ronaldo": {"senha": senha_ronaldo, "tipo": "admin"},
-    "Felipe": {"senha": senha_felipe, "tipo": "normal"}
+    "geral": {"senha": senha_geral, "tipo": "normal"}
 }
 
 # Função de autenticação
