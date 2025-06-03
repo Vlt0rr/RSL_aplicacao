@@ -27,7 +27,7 @@ nome_usuario = st.selectbox(
     ['', 'Ademir', 'Adriano', 'Arlunes', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Wesley']
 )
 
-lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT', 'Fabrica', 'Logistica', 'Externo', Manutenção', 'Visita a cliente']
+lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT', 'Fabrica', 'Logistica', 'Externo', 'Manutenção', 'Visita a cliente']
 
 # Campo 'Área' com lista suspensa
 area = st.selectbox(
