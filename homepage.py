@@ -24,7 +24,7 @@ existing_data = existing_data.dropna(how="all")
 
 nome_usuario = st.selectbox(
     'Nome',
-    ['', 'Ademir', 'Adriano', 'Arlunes', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Wesley']
+    ['', 'Ademir', 'Adriano', 'Arlunes', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Wesley', 'Douglas', 'William']
 )
 
 lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT', 'Fabrica', 'Logistica', 'Externo', 'Manutenção', 'Visita a cliente']
@@ -109,3 +109,4 @@ if nome_usuario == "Ronaldo" or nome_usuario == "Vitor":
             conn.update(worksheet="Dados", data=updated_df)
 
             st.success("Data de término submetida com sucesso")
+
