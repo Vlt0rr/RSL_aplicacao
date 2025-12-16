@@ -24,7 +24,7 @@ existing_data = existing_data.dropna(how="all")
 
 nome_usuario = st.selectbox(
     'Nome',
-    ['', 'Adriano', 'Arlunes', 'B. Jesus', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Pacheco', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Wesley', 'Douglas', 'William']
+    ['', 'Adriano', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Pacheco', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Thiago H', 'Wesley', 'Douglas', 'William']
 )
 
 lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT', 'Fabrica', 'Logistica', 'Externo', 'Manutenção', 'Visita a cliente']
