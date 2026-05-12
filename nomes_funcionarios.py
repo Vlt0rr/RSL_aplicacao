@@ -5,7 +5,7 @@ url = "https://docs.google.com/spreadsheets/d/1utRX7L53jEKEMUut4etgksRNf4Xadojf0
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
-df_nomes = conn.read(spreadsheet=url, worksheet="2086210358")
+df_nomes = conn.read(spreadsheet=url, worksheet="Funcionarios")
 
 lista_nomes = sorted(df_nomes["Nome"].dropna().tolist())
 
