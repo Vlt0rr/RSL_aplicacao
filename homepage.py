@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection
-from nomes_funcionarios import nome_usuario
+from nomes_funcionarios import carregar_funcionarios
 
 secao_usuario = st.session_state
 
@@ -22,10 +22,7 @@ existing_data = conn.read(worksheet="Dados", usecols=list(range(7)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
 
-#nome_usuario = st.selectbox(
-#    'Nome',
-#    ['', 'Adriano', 'Bruno', 'Denilson', 'Felipe', 'Genilson', 'Junior', 'José Carlos', 'Neusvaldo', 'Pacheco', 'Ronaldo', 'Roberto', 'Tiago', 'Netanis', 'Thiago H', 'Wesley', 'Douglas', 'William']
-#)
+nome_usuario = carregar_funcionarios()
 
 lista_projetos = ['', 'CDS', 'VDS', 'ODS', 'TDS', 'BDS', 'TELM', 'TOT', 'Fabrica', 'Logistica', 'Externo', 'Manutenção', 'Visita a cliente']
 
